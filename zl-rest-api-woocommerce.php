@@ -4,9 +4,9 @@ require __DIR__ . '/vendor/autoload.php';
 use Automattic\WooCommerce\Client;
 
 $woocommerce = new Client(
-    'http://wptest.zluck.in',
-   	'ck_5663f26f99cff2abcc6ff77da58bbb81cdefb04e',
-    'cs_c0256aeb89c1887eb7d3d907e17cfa0d40bd83dd',
+    'http',
+   	'ck_',
+    'cs_',
     [
         'wp_api' => true,
         'version' => 'wc/v1',
